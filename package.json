@@ -26,7 +26,7 @@
     "lint-staged": "^9.4.2"
   },
   "lint-staged": {
-    "*.js": [
+    "*.ts": [
       "eslint --fix",
       "git add"
     ]
