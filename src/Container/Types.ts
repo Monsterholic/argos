@@ -1,1 +1,3 @@
-export const Types = {};
+export const Types = {
+    Container: Symbol.for('Container'),
+};
