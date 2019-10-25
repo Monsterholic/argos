@@ -10,9 +10,9 @@
     "sourceMap": true,
     "declaration": true
   },
-  "include": ["lib/**/*.ts"],
+  "include": ["src/**/*.ts"],
   "exclude": ["node_modules", "tests"],
-  "baseUrl": "lib",
+  "baseUrl": "src",
   "buildOnSave": true,
   "compileOnSave": true
 }

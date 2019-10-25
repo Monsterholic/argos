@@ -3,6 +3,13 @@
         "browser": true,
         "es6": true
     },
+    "settings": {
+        "import/resolver": {
+            "node": {
+                "extensions": [".ts"]
+            }
+        }
+    },
     "extends": [
         "airbnb-base",
         "plugin:prettier/recommended"
@@ -20,5 +27,7 @@
         "@typescript-eslint"
     ],
     "rules": {
+        "import/prefer-default-export": ["off","always"],
+        "import/no-default-export": ["error"]
     }
 }
